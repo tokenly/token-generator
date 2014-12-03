@@ -1,0 +1,22 @@
+{
+    "name": "tokenly/token-generator",
+    "description": "A library to generate random strings",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devon Weller",
+            "email": "dweller@devonweller.com",
+            "homepage": "http://devonweller.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "autoload": {
+        "psr-0": {"Tokenly\\TokenGenerator": "src"}
+    }
+}
